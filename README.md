@@ -7,6 +7,8 @@ hence this AutoIt script.
 
 ## Usage
 
+See a video of this in action [on YouTube](https://www.youtube.com/watch?v=0sif6iq6tVc).
+
 1. Download the .au3 file.
 2. Use [AutoIt](http://www.autoitscript.com/site/autoit/) to edit the file, changing the path to TexMod.exe on line 1:
 
@@ -22,7 +24,10 @@ hence this AutoIt script.
     texture file you don't want to load, you can comment it out from the AutoIt
     script by putting a semicolon `;` at the beginning of the line.
 
-3. Compile and Build the script in AutoIt, which generates an .exe file.
+3. Under the Tools menu, hit Build, which will generate an .exe file with the
+name `autoit-me3-textures.exe`. You'll only have to do this step once. In the
+future to launch Mass Effect 3 via TexMod with all your textures, you'll just
+run the generated `autoit-me3-textures.exe`.
 4. Put the generated .exe file into a folder with both TexMod.exe and all your
 .tpf texture files. Run the .exe file and it'll open TexMod, load
 MassEffect3.exe, load each texture file, and finally run Mass Effect 3 with all
